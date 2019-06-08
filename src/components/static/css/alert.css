@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #f5f5f5;
+}
+/* 弹出框开始 */
+.alert-box{
+	width: 5.8rem;
+	height: 4.5rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-image: url('../img/tanchukuang.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.question{
+	width: 0.9rem;
+	height: 0.9rem;
+	margin: 1rem auto 0;
+}
+.question img{
+	width: 100%;
+	display: block;
+}
+.text{
+	font-size: 0.24rem;
+	color: #000;
+	opacity: 0.5;
+	text-align: center;
+	font-weight: bold;
+}
+.alert-btn{
+	width: 3.6rem;
+	height: 0.7rem;
+	margin: 0.29rem auto 0;
+}
+.alert-btn .sure{
+	width: 1.69rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	background: linear-gradient(90deg, 
+		#33d07d 0%, 
+		#3de43d 100%), 
+	linear-gradient(
+		#000000, 
+		#000000);
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 0.24rem;
+	float: left;
+	box-shadow: 0px 10px 24px 0px 
+		rgba(43, 225, 129, 0.75);
+}
+.alert-btn .cancel{
+	width: 1.69rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	background: #eafbf0;
+	border: none;
+	outline: none;
+	font-size: 0.24rem;
+	color: #35d470;
+	float: right;
+}
+/* 弹出框结束 */

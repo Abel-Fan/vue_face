@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+/* 头像开始 */
+.album{
+	width: 3.95rem;
+	height: 5.1rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 2.26rem;
+	left: calc(50% - 1.975rem);
+}
+.album canvas{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.album video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/* 头像结束 */
+/* 提示语开始 */
+.tips-text{
+	width: 100%;
+	text-align: center;
+	color: #a0a0a0;
+	font-size: 0.26rem;
+	position: absolute;
+	bottom: 2.08rem;
+}
+/* 提示语结束 */
+/* 公司名称开始 */
+.company{
+	width: 100%;
+	text-align: center;
+	color: #dadada;
+	font-size: 0.16rem;
+	position: absolute;
+	bottom: 0.55rem;
+}
+/* 公司名称结束 */
+.dots{
+	width: 1.72rem;
+	height: 0.18rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 0.2rem;
+}
+.dots .dot{
+	width: 0.18rem;
+	height: 0.18rem;
+	border-radius: 50%;
+}
+.dot.a{
+	background: #2dc27a;
+}
+.dot.b{
+	background: #2dc27a;
+	opacity: 0.5;
+}
+.dot.c{
+	background: #2dc27a;
+	opacity: 0.3;
+}
+.dot.d{
+	background: #2dc27a;
+	opacity: 0.1;
+}

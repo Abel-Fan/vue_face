@@ -1,0 +1,44 @@
+@import url(base.css);
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+}
+.success-bg{
+	width: 100%;
+	height: 100%;
+	background: url('../img/sorry@2x.png') no-repeat center center/100% 100%;
+	position: relative;
+}
+.success-tips{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 1.36rem;
+}
+.success-tips .first-line{
+	color: #fff;
+	font-size: 0.32rem;
+}
+.success-tips .second-line{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.24rem;
+}
+.success-btn{
+	width: 3.68rem;
+	height: 0.7rem;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 0.35rem;
+	border: none;
+	outline: none;
+	position: absolute;
+	left: calc(50% - 1.84rem);
+	bottom: 1.9rem;
+	font-size: 0.24rem;
+	color: #fff;
+}
