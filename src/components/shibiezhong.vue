@@ -62,11 +62,12 @@
                     }).then((r)=>{
                       return r.json()
                     }).then((data)=>{
+                      console.log(data)
                       if(data['error_code']){
                         flag = true
                       }else{
                         flag=false
-
+                        console.log(data)
                       }
                     })
 
